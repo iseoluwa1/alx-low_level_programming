@@ -33,3 +33,27 @@ int _atoi(char *s)
 		ni *= min;
 		return (ni);
 }
+
+
+
+
+
+
+
+[200~int _atoi(char *s) {
+	  int i = 0;
+	    int sign = 1;
+	      int result = 0;
+
+	        // Skip all leading whitespace.
+		//   while (s[i] == ' ') {
+		//       i++;
+		//         }
+		//
+		//           // Check for the sign.
+		//             if (s[i] == '-') {
+		//                 sign = -1;
+		//                     i++;
+		//                       } else if (s[i] == '+') {
+		//                           i++;
+		//              
